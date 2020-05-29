@@ -1,0 +1,52 @@
+.championsDuelList {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 1800px;
+    min-height: 500px;
+    height: auto;
+    background: url(../image/hotel.jpg) no-repeat;
+    background-size: cover;
+}
+
+select {
+    width: 400px;
+    height: 50px;
+    margin-right: 20px;
+    background: deepskyblue;
+    font-size: 22px;
+}
+
+.championDuel p,
+.championDuel ul li {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+}
+
+.championDuel ul li {
+    cursor: pointer;
+}
+
+.championDuel .championHint {
+    padding: 0;
+    margin: 0;
+    margin-top: -20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.championDuel ul li:hover {
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    opacity: 1;
+}
+
+
