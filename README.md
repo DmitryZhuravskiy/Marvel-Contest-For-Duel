@@ -1,3 +1,3 @@
 # Marvel-Contest-For-Duel
 Created with CodeSandbox
-This is programm for searching champions to duel in game Marvel Contest of the Champions.
+Программа была создана на CodeSandBox с целью поиска ника чемпиона для поединков для игры Marvel Contest of the Champions. Сама функция была позже добавлена в игру разработчиком, однако, до этого момента проект на CodeSandBox был посещен более 2500 раз. В версию в этой ветке добавлен функционал смены языка выбора с английского на русский с помощью библиотеки i18next. Впрочем, есть и ошибки при повторном поимке, поэтому версия не выкачена на deploy.
